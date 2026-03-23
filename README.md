@@ -1,8 +1,8 @@
 # 👋 Hey there, I’m Iyashi  
 
-🎓 **M.S. in Data Science @ Rochester Institute of Technology (2024–2026)**  
-📍 Based in the U.S. | Actively seeking **Data Scientist / Data Engineer / ML Engineer** roles  
-⚡ I build data systems that think, learn, and scale  
+🎓 **M.S. in Data Science @ Rochester Institute of Technology (August 2024– May 2026)**  
+📍 Based in the U.S. | Actively seeking ** ML/AI Engineer | Data Scientist | Data Engineer ** roles  
+⚡ I build AI systems that think, learn, and scale  
 
 ---
 

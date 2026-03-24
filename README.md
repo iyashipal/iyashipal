@@ -19,77 +19,79 @@ I enjoy working at the intersection of **research-grade ML and production-ready 
 
 ---
 
-## 🔬 Recent / Ongoing Work  
+## 🔬 Machine Learning Projects  
 
-✈️ **Predictive Anomaly Detection on Aviation Sensor Data (NGAFID)**  (Capstone Project)  
+### ✈️ Predictive Anomaly Detection on Aviation Sensor Data (NGAFID)  
+Designed a hybrid anomaly detection pipeline for early aircraft fault detection using real-world flight telemetry (64+ sensor streams).
 
-Designed a hybrid anomaly detection pipeline for early aircraft fault detection using real-world flight telemetry (64+ sensor streams).  
+- Implemented sliding-window One-Class SVM for anomalous subsequence detection  
+- Integrated neuroevolutionary RNNs (EXAMM) for t+1 forecasting and anomaly scoring  
+- Engineered a two-stage pipeline combining statistical detection with deep learning  
+- Worked with noisy, non-stationary aviation data (~7,000+ windows)  
 
-- Implemented a sliding-window One-Class SVM to detect anomalous subsequences in time-series data  
-- Integrated neuroevolutionary RNNs (EXAMM) for t+1 forecasting to generate error-based anomaly signatures  
-- Engineered a two-stage pipeline combining statistical detection with deep learning for improved temporal localization  
-- Worked with noisy, non-stationary aviation data (~7,000+ windows), focusing on interpretability and predictive maintenance use cases  
 
-🧘 **Real-Time Yoga Pose Detection App (Computer Vision + Deep Learning)**  
+### ❤️ Heart Disease Diagnosis Using Hybrid Fuzzy Membership Models  
+Developed an interpretable ML system for clinical risk prediction using fuzzy logic.
 
-Built a real-time computer vision system to classify yoga poses and provide live form correction using webcam input.
+- Designed custom fuzzy membership functions for medical uncertainty modeling  
+- Built hybrid classifier combining fuzzy inference with rule-based logic  
+- Improved interpretability compared to black-box models  
+- Filed as Indian Patent (No. 202441004228, 2024)  
 
-- Used MediaPipe for 33-point human pose landmark detection  
-- Engineered joint-angle features for pose classification  
-- Trained a machine learning model (Random Forest) for pose recognition  
-- Developed a Flask-based web application for real-time inference and feedback overlay  
-- Integrated live visual feedback to guide user posture correction  
 
-**Focus:** computer vision, real-time ML systems, human pose estimation
+---
 
-🤖 AI Systems / Agentic AI
-1. 🧩 SolAI v2 – Agentic AI System for Enterprise Workflows  
-Built an enterprise-grade conversational AI system with multi-agent orchestration, memory persistence, and tool integration for real estate workflows.
+## 🤖 AI Systems / Agentic AI  
 
-- Designed a three-tier memory architecture:
-  - Redis (working memory)
-  - Supabase (session persistence)
-  - Pinecone (long-term semantic memory)
-- Implemented LLM orchestration using Gemini and Claude via OpenRouter with fallback strategies
-- Built tool orchestration layer integrating Gmail, Twilio, CRM, and calendar APIs
-- Developed adaptive conversational engine with intent detection, context tracking, and dynamic response generation
-- Enabled workflow automation through parallel tool execution and chaining (n8n-style pipelines)
+### 🤖 SolAI v2 – Agentic AI System for Enterprise Workflows  
+Built an enterprise-grade conversational AI system with memory, orchestration, and tool integration.
 
-**Focus:** Agentic AI, memory systems, LLM orchestration, real-world automation
+- Designed three-tier memory architecture:
+  - Redis (working memory)  
+  - Supabase (session memory)  
+  - Pinecone (long-term memory)  
+- Implemented LLM orchestration (Gemini + Claude via OpenRouter)  
+- Built tool orchestration layer (Gmail, Twilio, CRM, Calendar APIs)  
+- Enabled multi-step workflow automation and agent coordination  
 
-2.  🧩 SolAI Dashboard – AI Workflow Automation Platform  
-Developed a full-stack AI operations dashboard for workflow automation and assistant-driven task execution.
 
-- Built a React + TypeScript + Express application with modular API architecture  
-- Designed multi-pane dashboard UI with real-time interaction flows (chat, scheduling, notifications)  
-- Implemented meeting scheduling system with time-slot generation and conflict validation  
-- Integrated Supabase for client data lookup and dynamic search  
-- Created webhook-based automation pipelines for email workflows and task execution  
-- Structured deployment-ready system with Vite + Express and serverless support  
+### 🧩 SolAI Dashboard – AI Workflow Automation Platform  
+Developed a full-stack dashboard for AI-driven workflow execution and automation.
 
-**Focus:** full-stack engineering, AI product design, workflow automation
+- Built React + TypeScript + Express application with modular API design  
+- Designed multi-pane dashboard UI with chat, scheduling, and notifications  
+- Implemented meeting scheduling system with time-slot generation  
+- Integrated Supabase for client lookup and data management  
+- Enabled webhook-based automation for workflows  
 
-❤️ **Heart Disease Diagnosis Using Hybrid Fuzzy Membership Models**  
-Developed an interpretable machine learning system for clinical risk prediction using fuzzy logic and rule-based decision modeling.
 
-- Designed custom fuzzy membership functions to model uncertainty in medical features  
-- Built a hybrid classifier combining fuzzy inference with rule-based decision logic  
-- Improved interpretability of predictions compared to black-box ML models  
-- Evaluated model performance on medical datasets with a focus on diagnostic accuracy and transparency  
-- Filed as Indian Patent Application (No. 202441004228, 2024)
+---
 
-**Focus:** interpretable AI, fuzzy logic, healthcare ML
+## 📊 Data & Analytics Projects  
 
-🚦 **U.S. Traffic Fatality Analysis with BigQuery & Looker Studio**  
-Analyzed large-scale NHTSA crash data to identify behavioral and environmental risk factors contributing to fatal accidents.
+### 🚦 U.S. Traffic Fatality Analysis  
+Analyzed NHTSA crash data to identify risk factors and predict fatality likelihood.
 
-- Processed and queried structured crash datasets using advanced SQL in Google BigQuery  
-- Built logistic regression models using BigQuery ML to predict multi-fatality crash likelihood  
-- Identified key risk factors including speeding, alcohol involvement, and road conditions  
-- Designed interactive dashboards in Looker Studio to visualize geospatial and temporal crash patterns  
-- Enabled data-driven insights for public safety analysis and policy evaluation  
+- Used BigQuery SQL for large-scale data processing  
+- Built logistic regression models using BigQuery ML  
+- Created Looker Studio dashboards for geospatial insights  
 
-**Focus:** SQL, BigQuery ML, statistical modeling, data visualization
+
+### 🧘 Yoga Pose Detection System  
+Built a real-time computer vision system for pose classification and feedback.
+
+- Used MediaPipe for 33-point pose estimation  
+- Engineered joint-angle features for classification  
+- Developed Flask app for real-time inference  
+
+
+---
+
+## 🧪 Additional Projects  
+
+- 🐦 Twitter Sentiment Analysis (NLP, TF-IDF, SVM, Naive Bayes)  
+- 📺 YouTube Trending Analytics (EDA, visualization, correlation analysis)  
+- 🔐 Secure Communication App (RSA + AES encryption, socket programming)
 ---
 
 ## 🎯 Why I’m Here  
